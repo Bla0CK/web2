@@ -17,9 +17,10 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body style="background-color:#FF0003">
+
     <!-- Creation d'entéte  -->
-    <header>
+    <header style="background-color : green">
       <ul>
         <li>Home</li>
         <li>about</li>
@@ -40,6 +41,65 @@
         exercice 2 : Initialisatin Bootstap
       </p>
     </section>
+    <section>
+      <form action="" method="post" >    <!-- Formulaire  -->
+          
+         
+          <input type="text" placeholder="enter your name" name="Nom" id="Nom"  > <br>  
+          <input type="password" placeholder="enter your password" name="password" id="password" > <br> 
+          <input type="date" placeholder="birth" name="birthdat" id="birthday" > <br>
+          <input type="number" placeholder="enter your number" name="number" id="number" > <br>
+          <input type="tel" placeholder="enter your phone number" name="phone number" id="phone number" > <br>
+          <input type="email" placeholder="enter your email" name="email" id="email" > <br>
+          <input type="file" name="file" id="file " placeholder="file" > <br>
+          <input type="image" placeholder="enter your photo" name="image" id="image" > 
+          <input type="checkbox" name="checkbox" id="chekbox" checked="Checked"> <br>
+          <input type="shearch" name="shearch" id="search" placeholder="search"> 
+          <input type="radio" name="radio" id="radio" aria-selected="true"> <br>
+          <input type="color" name="color" id="color"> <br>
+          <input type="submit" name="button" id="button" value="Login">
+      
+      
+        </form>
+     </section>
+     <section>
+       <h1>   Liste d'utilisateur </h1> 
+         <table>     <!-- Tableau -->
+        <thead style="background-color : yellow " ">
+          <tr>     <!-- Ligne du tableau -->
+            
+            <th>ID     </th>   <!-- Colonne du Tableau -->
+            <th>Nom    </th>
+            <th>Prénom </th>
+            <th>Email  </th>
+            <th>checkbox </th>
+            
+           
+            
+          </tr>
+        </thead>
+        <tbody style="background-color: blue" :>
+                    <tr>
+                      <td style="background-color : black " >1</td>
+                      <td>Nidhal</td>
+                      <td style="background-color : black " >Kaoui</td>
+                      <td>nidhal@gmail.com</td> 
+                      <td style="background-color : black " ><input type="checkbox" name="checkbox" id="chekbox" checked="Checked"> </td>
+                    </tr>
+                    <tr >
+                     <td style="background-color : black " >2         </td>
+                     <td>Nom       </td>
+                     <td style="background-color : black " >Prénom    </td>
+                     <td>Email     </td>
+                     <td style="background-color : black " ><input type="checkbox" name="checkbox" id="chekbox" checked="Checked"> </td>
+                    </tr>
+        </tbody>
+         </table>
+     </section>
+     <section>
+       <a href="https://www.hapt.tn"> voir notre Site </a>            <!-- Ajouter Un Lien -->
+       <a href="login.html"> Voir La page login  </a>
+     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
