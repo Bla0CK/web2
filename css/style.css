@@ -1,0 +1,23 @@
+.bg-image {
+  background-image: url(../image/login.png);
+  background-size: cover;
+  background-position: center;
+}
+.half,
+.half .container > .row {
+  height: 100vh;
+  min-height: 700px;
+}
+/*style pour les interface mbile */
+@media (max-width: 991.98px) {
+  .half .bg {
+    height: 200px;
+  }
+}
+.half .contents {
+  background: #f6f7fc;
+}
+.half .contents,
+.half .bg {
+  width: 50%;
+}
